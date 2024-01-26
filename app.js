@@ -37,7 +37,6 @@ function exibirTextoNaTela(tag, texto) {
 
 // Função para verificar o palpite do usuario
 function verificarChute () {
-    console.log(numeroSecreto)
     let chute = document.querySelector('input').value;
     if(chute == numeroSecreto){
         exibirTextoNaTela('h1', 'Acertou!');
